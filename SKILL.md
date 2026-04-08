@@ -18,6 +18,15 @@ Instead of building your own agent loop, you get a cloud container where Claude 
 read/write files, search the web, and execute code — all managed by Anthropic.
 Built-in prompt caching, context compaction, and performance optimizations are included.
 
+**Official API documentation (always up to date):**
+- Overview & concepts: https://platform.claude.com/docs/en/managed-agents/overview
+- Quickstart: https://platform.claude.com/docs/en/managed-agents/quickstart
+- API reference: https://platform.claude.com/docs/en/managed-agents/api-reference
+- Events reference: https://platform.claude.com/docs/en/managed-agents/events
+
+If you need the latest details on any endpoint, parameter, or behavior not covered in this
+skill's reference files, fetch the relevant documentation page above.
+
 **Beta header required on every request:**
 ```
 anthropic-beta: managed-agents-2026-04-01
