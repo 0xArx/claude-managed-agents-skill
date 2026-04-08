@@ -33,7 +33,7 @@ Instead of you having to paste documentation or explain the API every time, this
 ### Option 1 — Clone directly into skills folder
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-managed-agents-skill \
+git clone https://github.com/0xArx/claude-managed-agents-skill \
   ~/.claude/skills/claude-managed-agents
 ```
 
@@ -49,7 +49,7 @@ cp -r claude-managed-agents-skill ~/.claude/skills/claude-managed-agents
 
 ```bash
 mkdir -p ~/.claude/skills && \
-  curl -L https://github.com/YOUR_USERNAME/claude-managed-agents-skill/archive/refs/heads/main.tar.gz \
+  curl -L https://github.com/0xArx/claude-managed-agents-skill/archive/refs/heads/main.tar.gz \
   | tar -xz -C ~/.claude/skills --strip-components=1 \
     --one-top-level=claude-managed-agents
 ```
