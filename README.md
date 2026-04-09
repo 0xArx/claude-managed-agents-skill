@@ -1,5 +1,7 @@
 # Claude Managed Agents — Claude Code Skill
 
+![Claude Managed Agents Skill](banner.svg)
+
 A [Claude Code skill](https://docs.anthropic.com/en/docs/claude-code/skills) that gives Claude deep, always-available knowledge of the **Claude Managed Agents API** — Anthropic's hosted infrastructure for running Claude as an autonomous agent in a cloud container.
 
 Instead of you having to paste documentation or explain the API every time, this skill loads the right context automatically whenever you're building with managed agents.
